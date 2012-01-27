@@ -4,11 +4,11 @@ function getBandname() {
 		success: function(data){
 			var newclass = $('.bandname').last().hasClass('even') ? 'odd' : 'even';
 			$('#bandnames').append('<div class="bandname ' + newclass + '">' + data['bandname'] + '</div>')
-			$('.bandname').first().hide(300).remove();
+			$('.bandname').first().hide(450, function(){$('.bandname').first().remove()});
 		}
 	});
 }
 
 $(function(){
-	setInterval( getBandname, 4000 );
+	setInterval( getBandname, 2200 );
 })

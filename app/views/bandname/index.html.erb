@@ -1,5 +1,8 @@
-<div id='bandnames'>
-	<% @bandnames.each do |b| %>
-	<%= content_tag :div, b, :class => "bandname " + cycle("even", "odd") %>
-	<% end %>
+<div id = 'bandnames_container'>
+	<div id='bandnames'>
+		<% @bandnames.each do |b| %>
+		<%= content_tag :div, b, :class => "bandname " + cycle("even", "odd") %>
+		<% end %>
+	</div>
+	<div id='bandnames_overlay'></div>
 </div>

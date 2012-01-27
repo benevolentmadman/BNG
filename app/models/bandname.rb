@@ -32,7 +32,8 @@ class Bandname
   def self.proper_noun
     nouns = [ 
       'Mike', "Alex", "Lefty", "Atilla", "Hammurabi", "Zeus", "Frodo", 'Manny', 'Sully', "jay", 'ralph', 'Luke', "matt", "john", "marvin",
-      "bugs", "elmer", 'chip', 'manfred', "Dr. Teeth", 'boris', 'natasha', 'sven', 'kermit', 'frank', 'kevin', 'peter', 'hans'
+      "bugs", "elmer", 'chip', 'manfred', "Dr. Teeth", 'boris', 'natasha', 'sven', 'kermit', 'frank', 'kevin', 'peter', 'hans', 'mark', 'scott',
+      'esmerelda', 'hetty', 'paul', 'xavier'
     ]
     capitalize_words(nouns[rand(nouns.count)])    
   end
@@ -49,7 +50,7 @@ class Bandname
       'monarch', 'glare', 'bungalow', 'mansion', 'wounds', 'goats', 'geese', 'marbles', 'snakes', 'jet planes', 'dinosaurs',
       'science', 'snowbank', 'monopoly', 'Muskoka', 'balaclava', 'mittens', 'fire', 'earth', 'water', 'justice', 'moose', 'squirrel',
       'saltine', 'topping', 'wax', 'lightning', 'pants', 'trousers', 'procedure', 'buffer', 'freedom', 'closure', 'asbestos', 'robot',
-      'monarchy', 'mayhem', 'kerfuffle', 'shenanigan'
+      'monarchy', 'mayhem', 'kerfuffle', 'shenanigan', 'eagle', 'worm', 'emporium', 'internet'
     ]
     capitalize_words(nouns[rand(nouns.count)])
   end
@@ -66,7 +67,8 @@ class Bandname
       'baleful', 'flat', 'pointed', 'obtuse', 'smoke filled', 'well seasoned', 'lightly salted', 'ideal', 'lurching', 'crouching', 'feral',
       'hidden', 'obscured', 'obscure', 'suspension of', 'scientific', 'atonal', 'melodic', 'servile', 'dimly lit', 'crepuscular', 'mortal', 
       'immortal', 'jet set', 'painted', 'lovable', 'scorched', 'titular', 'discontented', 'disgruntled', 'greased', 'free', 'discordant',
-      'almost perfect', 'electric', 'space age', 'big', "small"
+      'almost perfect', 'electric', 'space age', 'big', "small", 'madcap', 'zany', 'welcome', 'unwelcome', 'plutonium', 'far from perfect',
+      'atomic', 'saucy', 'microscopic', 'horrendous', 'half eaten'
     ]
     capitalize_words(adjectives[rand(adjectives.count)])
   end
